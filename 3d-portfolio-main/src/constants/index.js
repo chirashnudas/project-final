@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     name: "Projects",
-    link: "#Projects",
+    link: "#projects",
   },
 ];
 
@@ -78,12 +78,12 @@ const abilities = [
     desc: "Detail-oriented, creative thinker, consistent performer and collaborative.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "/images/chat.png",
     title: "Time Management",
     desc: "Efficiently balance academics and projects using structured planning, prioritization, and productivity tools.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "/images/time.png",
     title: "Eagerness to Learn",
     desc: "Driven by curiosity, I constantly explore new technologies and improve through hands-on learning.",
   },
@@ -149,7 +149,7 @@ const expCards = [
   {
     review: "FlameEd is a Reddit-inspired platform enabling users to post, comment, vote, and engage in topic-based discussions seamlessly. It features user authentication",
     
-
+    logoPath: "/images/logo1.png",
     title: "Full Stack Developer",
     date: "January 2023 - Present",
     responsibilities: [
@@ -161,7 +161,7 @@ const expCards = [
   {
     review: "At CSIR-CMERI, I contributed to the development of a real-time hand tracking system aimed at aiding medical rehabilitation.",
     
-
+    logoPath: "/images/logo2.png",
     title: "Python Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
@@ -173,7 +173,7 @@ const expCards = [
   {
     review: "Mingle is a real-time chatting platform designed to connect users instantly through clean, responsive UI and seamless communication.",
     
- 
+    logoPath: "/images/logo3.png",
     title: "React Native Developer",
     date: "March 2019 - May 2020",
     responsibilities: [
@@ -244,18 +244,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/amledcopperfield/", 
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
+    name: "Resume",
     imgPath: "/images/x.png",
+    link: "https://drive.google.com/drive/folders/161AeaUOV4GC14z76TySibJFrar8dGHdW?usp=drive_link", 
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/chirashnudas/",
+  },
+  {
+    name: "github",
+    imgPath: "/images/fb.png", 
+    link: "https://github.com/Chirashnu1",
   },
 ];
 
